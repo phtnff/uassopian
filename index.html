@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERPUSTAKAAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Perpustakaan</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#books">Daftar Buku</a></li>
+                <li><a href="#search">Pencarian Buku</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat datang di halaman perpustakaan</h2>
+        <p>Temukan berbagai macam buku yang dapat Anda baca secara online.</p>
+    </section>
+
+    <section id="books">
+        <h2>Daftar Buku</h2>
+        <ul id="bookList">
+            <li>1. Harry Potter dan Batu Bertuah</li>
+            <li>2. The Hobbit</li>
+            <li>3. JavaScript untuk Pemula</li>
+            <li>4. Pemrograman Web dengan HTML & CSS</li>
+            <li>5. Menjadi Pengembang Perangkat Lunak</li>
+        </ul>
+    </section>
+
+    <section id="search">
+        <h2>Pencarian Buku</h2>
+        <input type="text" id="searchInput" placeholder="Cari buku..." onkeyup="searchBook()">
+        <ul id="bookListSearch">
+            <li>Harry Potter dan Batu Bertuah</li>
+            <li>The Hobbit</li>
+            <li>JavaScript untuk Pemula</li>
+            <li>Pemrograman Web dengan HTML & CSS</li>
+            <li>Menjadi Pengembang Perangkat Lunak</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Perpustakaan Online. Sopian Apriliana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
